@@ -1,0 +1,13 @@
+.layout-main {
+  position: relative;
+}
+
+.layout-main > img {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .layout-main > img {
+    margin-bottom: 20px; /* Adjust this value as needed */
+  }
+}
